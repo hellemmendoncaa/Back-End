@@ -7,12 +7,18 @@ function entradas(){
         x, y
     };
 }
+
 function soma(x ,y){
    let z = x + y;
     return z;
 }
 
+function exibicao(z){
+    console.log('Z = '+z);
+}
+
+
 let z;
 const {x, y} = entradas();
 z = soma(x, y);
-console.log('Z = '+z);
+exibicao(z);
