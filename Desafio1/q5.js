@@ -1,8 +1,8 @@
 // Questão 5
 
 let idade = 19;
-if (idade >= 18){
+if (idade >= 18) {
     console.log('Você é maior de idade.');
-}else{
+} else {
     console.log('Você é menor de idade.');
 }
